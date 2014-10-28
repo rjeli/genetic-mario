@@ -76,7 +76,6 @@ while True:
         data = connection.recv(16)
 
         if currentGene >= CHROMOSOME_LENGTH:
-            print("the end of the gene has been reached... idk if this can happen")
             currentGene = 0
             currentChromosome += 1
 
